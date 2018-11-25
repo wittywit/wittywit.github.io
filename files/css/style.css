@@ -430,7 +430,7 @@ ul#meet-the-team-ul li:nth-child(6) .team-members-position{float:left;width:250p
 .main-navigation{right:60px;}
 .main-navigation ul{display:block;}
 }
-@media (max-width:1180px){.menu-toggle{float:right;display:block;background:url("../mobile-menu-41-26.png")
+@media (max-width:1180px){.menu-toggle{float:right;display:block;background:url("../mobile-menu-41-26.png");
 background-repeat:no-repeat;background-position:left center;background-size:41px 26px;width:41px;height:26px;background-color:transparent;border:none;font-size:0;margin-bottom:20px;}
 .main-navigation ul{display:none;}
 .main-navigation{top:20px;right:10px;}
