@@ -1,0 +1,149 @@
+    <!doctype html>
+	<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> VoiletHill </title>
+
+	<link rel="stylesheet" id="wittywit-style-css" href="./files/css/style.css" type="text/css" media="all">
+
+
+<!-- Google Analytics --> 	  
+	  	<script>
+                         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                       ga('create', 'UA-63681583-1', 'auto');
+                      ga('send', 'pageview');
+              </script>
+
+
+	
+	<script type="text/javascript" src="./files/js/jquery.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery-migrate-3.0.0.min.js"></script>
+	<!--============================================================================-->
+<link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href=".">
+<link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+		
+	</head>
+
+	<body>
+	<div id="page" class="site">
+		
+		<header id="masthead" class="site-header">
+			<div class="site-branding">
+								<p class="site-title"><a href="http://wittywit.com/" rel="home"><span>Pranshu</span>Chaudhary</a></p>
+						</div><!-- .site-branding -->
+
+			
+			<nav id="site-navigation" class="main-navigation sticky" style="margin-top: 0px;">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+				<div class="menu-main-menu-container"><ul id="primary-menu" class="menu nav-menu" aria-expanded="false"><li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11"><a href="http://wittywit.com/#about">About</a></li>
+	<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12"><a href="#UX"> Case Studies / UX</a></li>
+	<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="http://wittywit.com/#creative-coding">Creative Coding</a></li>
+	<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-13"><a href="http://wittywit.com/#installations">installations</a></li>
+	<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-15"><a href="http://wittywit.com/#get-in-touch">Get in touch</a></li>
+	</ul></div>		</nav><!-- #site-navigation -->
+		</header><!-- #masthead -->
+
+		<div id="content" class="site-content">
+	<div class="info-bg"></div>
+	<a name="about"></a>
+		<main>
+			
+			<div class="content content--fixed">
+
+				<div class="side-text">The first rule is to not fool yourself.</div>
+			</div>
+			
+			<!--====================== Project Content ========================== -->
+			
+			<div class="projectarea">
+       <img src="img/V1.png" alt="Fetured Image Not found"/>
+     <h1>
+     	VoiletHill: A search within ..
+     </h1>
+
+       <p>
+       	
+        VoiletHill is a work in progress game that was inspired by a freind who had clinical dipression. During my first meeting with this person I had no clue what they were suffering from
+        They appeared to me nothing like how I would imagine a clinically dipressed person to be. Atleast on the outside. 
+
+
+<br>
+After a sequence of conversations with this freind of mine I felt that Mental Health issues are still not understood by people who are suffering from it and nor by the society they are part of.
+very often the one who is going through the expreience of dipression would find themselves lonely and lost in an endless darkness. And while the society would be quick to put lables on them, we make 
+very little efort in right direction to understand them at their levels.
+<br>
+This game trailer that I have worked on is based on one of the illustrations done by this freind of mine. I felt that a game might undirectly give them some hope , that in this suffering of theirs they are not alone.
+One common issue with mental Illness is branding the person as "Abnormal". When this is done the person gets isolated and this abnormality branding also contributes to the loneliness, that the person is already suffering from.
+<br>
+The trailer which is supposed to be a part of the first level, shows a pair of bright shiny eyes, lost in the darkness, feeling that they are the only ones lost in the dark. But when they look around they actually see that they are not the only ones in the darkness. 
+The idea is to make people aware of the fact that mental illness is like any other illness which can be cured and that the one who is suffering from it is not the only one who is different, and thus "Abnormal".
+<br>
+<br>
+<hr>
+       </p> 
+       
+       <iframe src="https://player.vimeo.com/video/286213534" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/286213534">VoiletHill</a> from <a href="https://vimeo.com/wittywit">Pranshu Chaudhary</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<div>
+       
+       
+       
+</div>
+ 
+    </div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		<!--=========================== footer ================================-->	
+
+		<footer id="colophon" class="site-footer content--layout-8 content--layout"><a name="get-in-touch" tabindex="-1"></a>
+
+			<div class="site-content-small" style="text-align: center">
+				
+				<h2 class="content__title" style="display: inline-block;width:100%;">Get in touch</h2>
+				<div class="content__text" style="display: inline-block;width:100%;">
+					<a href="mailto:pranshu_c@nid.edu">pranshu_c@nid.edu</a>
+				<div class="needtocall"> +91 945 870 3427 <br> +91 851 145 0365</div>
+					<a class="gotofacebook" href="https://www.facebook.com/wittywit/" target="_blank"></a>
+					<div class="side-text-m">Speculating and creating NOW</div>
+				</div>
+			</div>
+			<!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<script type="text/javascript" src="./files/js/skip-link-focus-fix.js"></script>
+	<script type="text/javascript" src="./files/js/imagesloaded.pkgd.min.js"></script>	
+	<script type="text/javascript" src="./files/js/scrollMonitor.js"></script>
+	<script type="text/javascript" src="./files/js/navigation.js"></script>
+		
+
+
+
+	</body></html>
