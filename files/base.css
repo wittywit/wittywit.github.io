@@ -20,6 +20,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: sofia-pro, sans-serif;
+	
+	--cursor-stroke: #000;
+	--cursor-stroke-width: 1px;
 }
 
 /* Grainy texture animation by Geoff Graham https://css-tricks.com/snippets/css/animated-grainy-texture/ */
@@ -109,14 +112,14 @@ a:focus {
 }
 
 .menu__item {
-	cursor: default;
+	
 	position: relative;
 	padding: 0 5vw;
 }
 
 .menu__item-link {
 	display: inline-block;
-	cursor: pointer;
+	
 	position: relative;
 	-webkit-text-stroke: 1.5px #000;
 	text-stroke: 1.5px #000;
@@ -248,4 +251,58 @@ a:focus {
 	.frame a {
 		pointer-events: auto;
 	}
+}
+
+
+
+
+/* ################# .  cursor crosshair  .  ############### */
+
+
+
+
+.cursor {
+	display: block;
+}
+
+@media (any-pointer:fine) {
+	.cursor {
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: block;
+		pointer-events: none;
+		z-index: 1001;
+	}
+
+	.no-js .cursor {
+		display: none;
+	}
+
+	.cursor__line {
+		position: fixed;
+		display: block;
+		will-change: transform, opacity;
+	}
+	
+	.cursor__line--horizontal {
+		top: -10px;
+		left: -10%;
+		width: 120%;
+		height: 20px;
+	}
+	
+	.cursor__line--vertical {
+		left: -10px;
+		top: -10%;
+		height: 120%;
+		width: 20px;
+	}
+	
+	.cursor__line-element {
+		fill: none;
+		stroke: var(--cursor-stroke);
+		stroke-width: var(--cursor-stroke-width);
+	}
+
 }
