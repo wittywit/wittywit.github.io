@@ -132,8 +132,7 @@ a:focus {
 .menu__item-link::before {
 	all: initial;
 	font-family: sofia-pro, sans-serif;
-	counter-increment: menu;
-	content:  counter(menu);
+	
 	position: absolute;
 	bottom: 60%;
 	left: 0;
