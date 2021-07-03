@@ -61,7 +61,7 @@ a {
 a:hover,
 a:focus {
 	color: var(--color-link-hover);
-	outline: none;
+	outline: inset;
 }
 
 .frame {
@@ -305,3 +305,108 @@ a:focus {
 	}
 
 }
+
+
+
+/*############# Badge css ######################*/
+
+
+
+
+.content {
+  zoom: 1;
+  padding-left: 32px;
+  padding-right: 32px;
+  position: relative;
+  z-index: 11
+}
+.badge-wrapper {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+  position: absolute;
+  top: -16px;
+  right: 0;
+  width: 228px;
+  z-index: 10
+}
+@media (max-width:1023px) {
+  .badge-wrapper {
+    font-size: 12px;
+	  float:none;
+	 bottom: 0.1vh;
+	  position: relative;
+  }
+	
+	.content{
+		
+		 position: fixed;
+    bottom: 35vw;
+    width: 100%;
+		left:-13vw;
+	}
+}
+
+
+
+
+
+
+.content-article .badge-wrapper {
+  top: 0.1vh;
+  right: 21px;
+  position: absolute;
+}
+.no-touch .badge-wrapper.with-hover:hover .badge-type {
+  left: -11px;
+  top: -11px
+}
+.no-touch .badge-wrapper.with-hover:hover .badge-date {
+  left: 18px;
+  top: 18px
+}
+.no-touch .badge-wrapper.with-hover:hover .badge-res {
+  left: 28px;
+  top: 48px
+}
+.badge {
+  -moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  width: 210px;
+  text-align: center;
+  border: 2px solid #232323;
+  display: inline-block;
+  padding: .75em;
+  letter-spacing: .1em;
+  background: #fff;
+  position: absolute;
+  cursor: pointer
+}
+.badge-type {
+  left: 0;
+  top: 0;
+  z-index: 50
+}
+.no-touch .clickable-block:hover .badge-type {
+  left: -11px;
+  top: -11px
+}
+.badge-date {
+  z-index: 10;
+  left: 7px;
+  top: 7px
+}
+.badge-res {
+  z-index: 9;
+  left: 14px;
+  top: 14px
+}
+.no-touch .clickable-block:hover .badge-date {
+  left: 18px;
+  top: 18px
+}
+
+
+
