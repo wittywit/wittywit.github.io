@@ -1,0 +1,1206 @@
+﻿@font-face {
+  font-family: "Freight Text W01";
+  src: url(../webfonts/freigtexprobook-webfont.woff2) format("woff2"), url(../webfonts/freigtexprobook-webfont.woff) format("woff");
+  font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: "Freight Text W01";
+  src: url(../webfonts/freigtexprobookit-webfont.woff2) format("woff2"), url(../webfonts/freigtexprobookit-webfont.woff) format("woff");
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: "Freight Text W01";
+  src: url(../webfonts/freigtexprobold-webfont.woff2) format("woff2"), url(../webfonts/freigtexprobold-webfont.woff) format("woff");
+  font-weight: 700;
+  font-style: normal
+}
+@font-face {
+  font-family: "Freight Text W01";
+  src: url(../webfonts/freigtexproboldit-webfont.woff2) format("woff2"), url(../webfonts/freigtexproboldit-webfont.woff) format("woff");
+  font-weight: 700;
+  font-style: italic
+}
+@font-face {
+  font-family: "Neue Haas Unica W01";
+  src: url(../webfonts/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2) format("woff2"), url(../webfonts/27645c8a-608b-4abf-a2f1-c4407b576723.woff) format("woff");
+  font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: "Neue Haas Unica W01";
+  src: url(../webfonts/cc589c6c-1ce4-4279-8684-c378497d1c68.woff2) format("woff2"), url(../webfonts/8546c78d-5a38-4c7b-9371-5a70d803922a.woff) format("woff");
+  font-weight: 400;
+  font-style: italic
+}
+@font-face {
+  font-family: "Neue Haas Unica W01";
+  src: url(../webfonts/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2) format("woff2"), url(../webfonts/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff) format("woff");
+  font-weight: 700;
+  font-style: normal
+}
+@font-face {
+  font-family: "Neue Haas Unica W01";
+  src: url(../webfonts/dfa9d078-533c-44d9-9dd9-deaafbff5a96.woff2) format("woff2"), url(../webfonts/4142b00a-232a-49e8-803c-541f8b932fa1.woff) format("woff");
+  font-weight: 700;
+  font-style: italic
+}
+@font-face {
+  font-family: DovesType;
+  src: url(../webfonts/DovesType-Regular.woff2) format("woff2"), url(../webfonts/DovesType-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: GillSansW04;
+  src: url(../webfonts/4bfd13a9-3195-4d8f-87a9-83a212d18b16.woff2) format("woff2"), url(../webfonts/63aa9f40-04be-453a-a672-aa8f9919115d.woff) format("woff")
+}
+@font-face {
+  font-family: GillSansW04;
+  src: url(../webfonts/688f1581-b411-41b9-ac0a-cf8f11f9f016.woff2) format("woff2"), url(../webfonts/ad4e4365-3d3d-427b-a9a9-94c3b9dfa074.woff) format("woff");
+  font-style: italic
+}
+@font-face {
+  font-family: "Helvetica LT W01";
+  src: url(../webfonts/89294146-207c-4803-91fe-338f0d0094bd.woff2) format("woff2"), url(../webfonts/57055fe4-c2d3-4287-bac2-eece43fdcbd3.woff) format("woff")
+}
+@font-face {
+  font-family: "Helvetica LT W01";
+  src: url(../webfonts/ac4134ce-b28e-4df9-b88c-a67db965774e.woff2) format("woff2"), url(../webfonts/6389110a-e983-4d95-8d1f-5a87de018aac.woff) format("woff");
+  font-style: italic
+}
+a, article, audio, big, blockquote, body, caption, center, code, div, em, form, h1, h2, h3, h4, h5, h6, header, html, i, img, object, output, p, s, section, small, span, strong, time, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+article, header, section {
+  display: block
+}
+body {
+  line-height: 1
+}
+blockquote {
+  quotes: none
+}
+blockquote:after, blockquote:before {
+  content: '';
+  content: none
+}
+#breakpoint-indicator {
+  display: none
+}
+@media (min-width:1024px) {
+  #breakpoint-indicator {
+    width: 3px
+  }
+}
+@media (max-width:1023px) {
+  #breakpoint-indicator {
+    width: 1px
+  }
+}
+body, html {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #232323
+}
+img {
+  display: block
+}
+a {
+  text-decoration: none;
+  color: inherit
+}
+strong {
+  font-weight: 700
+}
+em, i {
+  font-style: italic
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%
+}
+*, :after, :before {
+  box-sizing: inherit
+}
+body {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+  position: relative;
+  -webkit-font-smoothing: antialiased
+}
+.clickable-block {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 300
+}
+.logo {
+  display: inline-block;
+  margin-top: 26px
+}
+.logo img {
+  height: 68px;
+  opacity: .88;
+  width: auto
+}
+.logo-architecture {
+  display: none;
+  height: 26px;
+  position: absolute;
+  left: 125px;
+  top: 21px
+}
+.logo-architecture img {
+  height: 100%;
+  width: auto
+}
+.content {
+  zoom: 1;
+  padding-left: 32px;
+  padding-right: 32px;
+  position: relative;
+  z-index: 11
+}
+.content:after, .content:before {
+  content: "";
+  display: table
+}
+.content:after {
+  clear: both
+}
+.header-article + .content {
+  padding-top: 153px
+}
+.header-article + .content.content-video {
+  padding-top: 0;
+  margin-top: 70px
+}
+.header-article {
+  -moz-transition: top 250ms ease-in-out;
+  -o-transition: top 250ms ease-in-out;
+  -webkit-transition: top 250ms ease-in-out;
+  transition: top 250ms ease-in-out;
+  height: 70px;
+  border-bottom: 1px solid #232323;	
+  background-color: rgba(255, 255, 255, .9);
+  padding-right: 32px
+}
+.header-article .logo {
+  margin-top: 0;
+  float: left;
+  position: fixed;
+  top: 20px;
+  left: 28px;
+  background-color: transparent
+}
+.header-article .logo img {
+  height: 28px
+}
+.header-article-topline {
+  height: 100%;
+  position: absolute
+}
+.article-topline {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: calc(100vw - 530px)
+}
+
+.article-topline ul#menu li {
+  display:inline;
+	margin: 10px 0;
+	padding: 20px;
+}
+
+
+.block-title {
+  margin-left: 160px;
+  margin-right: 58px;
+  position: relative
+}
+.block-title em, .block-title i {
+  font-style: italic
+}
+.article-headline {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.1
+}
+@media (max-width:1023px) {
+  .article-headline {
+    font-size: 12px
+  }
+}
+.article-section {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: normal;
+  font-weight: 400;
+  margin-top: 1em
+}
+@media (max-width:1023px) {
+  .article-section {
+    font-size: 18px;
+    line-height: 1.2
+  }
+}
+.article-authors {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: normal;
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: .15em
+}
+@media (max-width:1023px) {
+  .article-authors {
+    font-size: 18px;
+    line-height: 1.2
+  }
+}
+.article-section + .article-authors {
+  margin-top: 0
+}
+.article-title {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 62px;
+  line-height: 1.1;
+  font-weight: 700;
+  width: 76%
+}
+@media (max-width:1023px) {
+  .article-title {
+    font-size: 23px;
+    line-height: 1.2
+  }
+}
+.article-headline + .article-title {
+  margin-top: 69px
+}
+.block-article-media {
+  margin-left: -32px;
+  margin-right: -32px;
+  overflow: hidden;
+  margin-bottom: 77px;
+  z-index: 1
+}
+.block-title + .block-article-media {
+  margin-top: 65px
+}
+.block-article-video {
+  position: relative;
+  height: auto
+}
+.block-article-video:after {
+  content: "";
+  padding-bottom: 56.25%;
+  display: block
+}
+.block-article-media__caption {
+  margin-left: 192px;
+  max-width: calc(100% - 656px)
+}
+.footnote-reference {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  position: relative;
+  top: -.4em;
+  font-size: .778em;
+  vertical-align: baseline
+}
+.article-content {
+  zoom: 1;
+  position: relative
+}
+.article-content:after, .article-content:before {
+  content: "";
+  display: table
+}
+.article-content:after {
+  clear: both
+}
+.block-title + .article-content {
+  margin-top: 63px
+}
+.block-text {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  float: left;
+  margin-bottom: 220px;
+  margin-left: 160px;
+  max-width: 900px;
+  width: calc(100% - 592px)
+}
+.block-text .inline-image + h2, .block-text blockquote + h2, .block-text blockquote + p, .block-text h2 + blockquote, .block-text h2 + p, .block-text h3 + p, .block-text p + blockquote, .block-text p + h2, .block-text p + p {
+  margin-top: 27px
+}
+.block-text p + h3 {
+  margin-top: 50px
+}
+.block-text p + .article-x {
+  margin-top: 31px
+}
+.block-text strong {
+  font-weight: 700
+}
+.block-text em, .block-text i {
+  font-style: italic
+}
+.block-text a {
+  text-decoration: underline
+}
+.block-text blockquote {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #6b6b6b;
+  padding-left: 64px
+}
+.block-text h2 {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 42px;
+  line-height: 1.1;
+  font-weight: 700;
+  clear: left
+}
+@media (max-width:1023px) {
+  .block-text h2 {
+    font-size: 23px;
+    line-height: 1.2
+  }
+}
+.block-text h3 {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 1.1;
+  font-weight: 700
+}
+.block-text[lang=zh] p {
+  text-align: justify
+}
+.article-x {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.1
+}
+.block-text-copy {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 14px;
+  line-height: 1.25;
+  margin-top: 29px
+}
+.text-copyright {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 13px;
+  line-height: 1.35;
+  margin-top: 29px
+}
+.text-copyright p + p {
+  margin-top: 17px
+}
+.sidebar {
+  float: right;
+  width: 304px;
+  position: absolute;
+  right: 96px;
+  top: 0;
+  height: 100%
+}
+.sidebar-item + .sidebar-item {
+  margin-top: 65px
+}
+.inline-image {
+  margin-bottom: 27px;
+  margin-top: 27px;
+  position: relative
+}
+.inline-image img {
+  -moz-transition: bottom 250ms ease-in-out, opacity 250ms ease-in-out;
+  -o-transition: bottom 250ms ease-in-out, opacity 250ms ease-in-out;
+  -webkit-transition: bottom 250ms ease-in-out, opacity 250ms ease-in-out;
+  transition: bottom 250ms ease-in-out, opacity 250ms ease-in-out;
+  opacity: 0;
+  height: auto;
+  width: 100%
+}
+.inline-image.lazy-loaded img {
+  opacity: 1
+}
+.inline-image.inline-image-size-small {
+  float: left;
+  margin-right: 48px
+}
+.inline-video .inline-caption {
+  margin-left: 192px;
+  max-width: calc(100% - 656px)
+}
+.inline-video {
+  position: relative;
+  margin-left: -192px;
+  width: calc(100vw);
+  margin-bottom: 27px;
+  margin-top: 27px;
+  z-index: 1
+}
+.inline-video-wrapper {
+  padding-bottom: 56.25vw;
+  overflow: hidden;
+  position: relative
+}
+.inline-video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%
+}
+.inline-audio {
+  margin-top: 27px;
+  margin-bottom: 27px
+}
+.inline-caption {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+  color: #6b6b6b;
+  margin-top: 26px
+}
+@media (max-width:1023px) {
+  .inline-caption {
+    font-size: 11px
+  }
+}
+.conversation-item {
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 24px
+}
+.conversation-item + .conversation-item {
+  border-top: 1px solid #2a2a2a;
+  padding-top: 24px
+}
+.item-conversation-date {
+  color: #6b6b6b
+}
+.item-conversation-text {
+  margin-top: 14px
+}
+.item-conversation-text p + p {
+  margin-top: 8px
+}
+#wrapper {
+  display: none;
+  margin-top: 300px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative
+}
+.wrap-block-text {
+  zoom: 1
+}
+.wrap-block-text:after, .wrap-block-text:before {
+  content: "";
+  display: table
+}
+.wrap-block-text:after {
+  clear: both
+}
+.lazy {
+  top: 0;
+  left: 50%
+}
+.item-image-wrapper {
+  background-repeat: repeat;
+  background-size: 85px
+}
+.lazy-loaded .item-image-wrapper {
+  background: #fff !important
+}
+.item-image-wrapper-bg1 {
+  background-image: url(../elements/bg-1.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg2 {
+  background-image: url(../elements/bg-2.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg3 {
+  background-image: url(../elements/bg-3.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg4 {
+  background-image: url(../elements/bg-4.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg5 {
+  background-image: url(../elements/bg-5.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg6 {
+  background-image: url(../elements/bg-6.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper {
+  position: relative
+}
+.item-image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.block-article-media__caption {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+  color: #6b6b6b;
+  margin-top: 26px;
+  padding-bottom: 1px
+}
+@media (max-width:1023px) {
+  .block-article-media__caption {
+    font-size: 11px
+  }
+}
+.no-design-content {
+  margin-top: 180px
+}
+.spinner {
+  border-top: 5px solid #000;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000;
+  border-radius: 1000px;
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  z-index: 1;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -moz-animation: spin .6s infinite linear;
+  -webkit-animation: spin .6s infinite linear;
+  animation: spin .6s infinite linear;
+  opacity: 0;
+  -moz-transition: opacity 250ms ease-in-out;
+  -o-transition: opacity 250ms ease-in-out;
+  -webkit-transition: opacity 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out
+}
+.is-loading .spinner {
+  opacity: 1
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -moz-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -o-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+.overlay-item {
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 718px;
+  max-width: 90%
+}
+.block-overlay {
+  -moz-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out, margin-top 275ms ease-in-out;
+  -o-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out, margin-top 275ms ease-in-out;
+  -webkit-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out, margin-top 275ms ease-in-out;
+  transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out, margin-top 275ms ease-in-out;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 0;
+  min-height: 100vh;
+  z-index: 400
+}
+.block-overlay.push-down {
+  margin-top: 100vh
+}
+.block-overlay .content {
+  -moz-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out;
+  -o-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out;
+  -webkit-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out;
+  transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out;
+  visibility: hidden;
+  opacity: 0
+}
+.block-overlay:not(.header-lock) .header-article {
+  position: absolute
+}
+.block-overlay:not(.header-lock) .header-article .logo {
+  position: relative
+}
+.overlay-content-loaded .block-overlay {
+  opacity: 1;
+  visibility: visible
+}
+.clickable {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none
+}
+#spinner_overlay {
+  -moz-transition: opacity 250ms ease, visibility 250ms ease;
+  -o-transition: opacity 250ms ease, visibility 250ms ease;
+  -webkit-transition: opacity 250ms ease, visibility 250ms ease;
+  transition: opacity 250ms ease, visibility 250ms ease;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 70px);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999
+}
+#spinner {
+  border-top: 5px solid #000;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000;
+  border-radius: 1000px;
+  height: 40px;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  z-index: 1;
+  -moz-animation: spin .6s infinite linear;
+  -webkit-animation: spin .6s infinite linear;
+  animation: spin .6s infinite linear
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -moz-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -o-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+.scroll-down:not(.scroll-down-disable) .header-article {
+  top: -70px
+}
+.badge-wrapper {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+  position: absolute;
+  top: -16px;
+  right: 0;
+  width: 228px;
+  z-index: 10
+}
+@media (max-width:1023px) {
+  .badge-wrapper {
+    font-size: 12px
+  }
+}
+.content-article .badge-wrapper {
+  top: 95px;
+  right: 21px;
+  position: fixed
+}
+.no-touch .badge-wrapper.with-hover:hover .badge-type {
+  left: -11px;
+  top: -11px
+}
+.no-touch .badge-wrapper.with-hover:hover .badge-date {
+  left: 18px;
+  top: 18px
+}
+.no-touch .badge-wrapper.with-hover:hover .badge-res {
+  left: 28px;
+  top: 48px
+}
+.badge {
+  -moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  width: 210px;
+  text-align: center;
+  border: 2px solid #232323;
+  display: inline-block;
+  padding: .75em;
+  letter-spacing: .1em;
+  background: #fff;
+  position: absolute;
+  cursor: pointer
+}
+.badge-type {
+  left: 0;
+  top: 0;
+  z-index: 50
+}
+.no-touch .clickable-block:hover .badge-type {
+  left: -11px;
+  top: -11px
+}
+.badge-date {
+  z-index: 10;
+  left: 7px;
+  top: 7px
+}
+.badge-res {
+  z-index: 9;
+  left: 14px;
+  top: 14px
+}
+.no-touch .clickable-block:hover .badge-date {
+  left: 18px;
+  top: 18px
+}
+.overlay-journal-image {
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%
+}
+.fancybox-wrap {
+  -moz-transform: none;
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none
+}
+.fancybox-title {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 15px
+}
+@media (max-width:1023px) {
+  .fancybox-title {
+    font-size: 11px
+  }
+}
+.lightbox-item {
+  display: block
+}
+.lightbox-item-video {
+  position: relative
+}
+.lightbox-item-video:before {
+  content: "";
+  position: relative;
+  padding-bottom: 56.25%;
+  top: 0;
+  z-index: 100;
+  display: block;
+  width: 100%
+}
+.fancybox-headline {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: #fff;
+  width: calc(100vw - 350px);
+  margin-top: 27px;
+  margin-left: auto !important;
+  margin-right: auto !important
+}
+.fancybox-logo {
+  position: fixed;
+  top: 20px;
+  left: 28px;
+  height: 28px;
+  width: 94px;
+  background-image: url(../elements/e-flux-logo-white.svg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+#fancybox-loading {
+  border-top: 5px solid #fff;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #fff;
+  border-radius: 1000px;
+  height: 40px;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  width: 40px;
+  z-index: 99999;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -moz-animation: spin .6s infinite linear;
+  -webkit-animation: spin .6s infinite linear;
+  animation: spin .6s infinite linear;
+  background: 0 0;
+  margin-left: 0;
+  margin-top: 0
+}
+a.fancybox-next {
+  right: 36px
+}
+a.fancybox-next span {
+  background-image: url(../elements/arrow_next_white.svg) !important;
+  background-size: 6px !important
+}
+.badge-event {
+  position: relative;
+  color: #232323 !important
+}
+.badge-event:after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  display: block;
+  border-radius: 50%;
+  right: -7px;
+  top: 4px
+}
+.event-years {
+  margin-top: 30px;
+  margin-bottom: 10px
+}
+.content-video {
+  background-color: #232323;
+  color: #b4b4b4
+}
+#bp {
+  width: 2px
+}
+.on-mobile {
+  display: none
+}
+@media (max-width:1023px) {
+  #bp {
+    width: 1px
+  }
+  .on-desktop {
+    display: none !important
+  }
+  .on-mobile {
+    display: block
+  }
+  html.is-touch .block-overlay {
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch
+  }
+  body {
+    -webkit-text-size-adjust: none
+  }
+  .header-article {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #fff), color-stop(50%, #fff), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -moz-linear-gradient(top, #fff 0, #fff 50%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-linear-gradient(top, #fff 0, #fff 50%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to bottom, #fff 0, #fff 50%, rgba(255, 255, 255, 0) 100%);
+    background-color: transparent;
+    border-bottom: none;
+    border-left: none;
+    height: 66px;
+    padding-left: 0;
+    padding-right: 0
+  }
+  .header-article + .content, .header-article + .content.content-video {
+    padding-top: 66px
+  }
+  .header-article .logo {
+    height: 17px;
+    width: 62px;
+    position: relative;
+    left: 0;
+    top: 12px
+  }
+  .header-article .logo img {
+    height: auto;
+    width: 100%
+  }
+  .logo-architecture {
+    float: left;
+    height: 16px;
+    position: relative;
+    margin-left: 6px;
+    top: 13px;
+    left: 0
+  }
+  .header-article-topline {
+    left: 57px;
+    width: calc(100% - 114px);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-justify-content: center;
+    justify-content: center
+  }
+  .article-topline {
+    display: none
+  }
+  .content {
+    padding-left: 16px;
+    padding-right: 16px
+  }
+  .block-title {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px
+  }
+  .article-headline + .article-title {
+    margin-top: 27px
+  }
+  .article-authors {
+    margin-top: 1.5em;
+    margin-bottom: .35em
+  }
+  .article-section {
+    margin-top: 1.5em
+  }
+  .block-article-media {
+    background-color: transparent !important;
+    margin-bottom: 35px;
+    margin-left: -16px;
+    margin-right: -16px
+  }
+  .block-title + .block-article-media {
+    margin-top: 27px
+  }
+  .block-text {
+    height: auto !important;
+    margin-bottom: 50px;
+    margin-left: 0;
+    width: 100%
+  }
+  .block-text blockquote {
+    padding-left: 16px
+  }
+  .block-text > div img {
+    width: 100%;
+    height: auto
+  }
+  .inline-image {
+    margin-left: -16px;
+    width: 100vw !important
+  }
+  .inline-video .inline-caption {
+    max-width: 100%
+  }
+  .inline-caption {
+    margin-top: 10px;
+    margin-left: 16px !important;
+    margin-right: 16px
+  }
+  .inline-video {
+    margin-left: -16px
+  }
+  .sidebar {
+    float: left;
+    height: auto !important;
+    margin-bottom: 64px;
+    position: relative;
+    width: 100%;
+    right: 0;
+    max-width: 304px;
+    padding-bottom: 0 !important
+  }
+  .sidebar-item {
+    clear: left;
+    float: left
+  }
+  .conversation-item {
+    padding-left: 16px;
+    padding-right: 16px
+  }
+  .badge-wrapper {
+    right: 2px
+  }
+  .badge {
+    width: 150px
+  }
+  .badge-wrapper.with-hover {
+    display: relative
+  }
+  .fancybox-title {
+    font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.1;
+    opacity: 0 !important;
+    visibility: hidden !important
+  }
+  .fancybox-headline, .fancybox-logo {
+    display: none !important
+  }
+}
+@media (max-width:767px) {
+  .overlay-item--first {
+    position: relative;
+    top: 0;
+    transform: none;
+    left: 0;
+    width: 100%;
+    max-width: inherit
+  }
+}
+.text-through {
+  text-decoration: line-through
+}
+.text-inline-space {
+  display: inline-block;
+  width: 2.5em
+}
