@@ -1111,6 +1111,8 @@ a.fancybox-next span {
   .badge-wrapper.with-hover {
     display: relative;
 		z-index: 700;
+	  right: -60px;
+	  top: 5px;
   }
   .fancybox-title {
     font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
