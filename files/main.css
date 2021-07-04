@@ -1,75 +1,4 @@
-﻿@font-face {
-  font-family: "Freight Text W01";
-  src: url(../webfonts/freigtexprobook-webfont.woff2) format("woff2"), url(../webfonts/freigtexprobook-webfont.woff) format("woff");
-  font-weight: 400;
-  font-style: normal
-}
-@font-face {
-  font-family: "Freight Text W01";
-  src: url(../webfonts/freigtexprobookit-webfont.woff2) format("woff2"), url(../webfonts/freigtexprobookit-webfont.woff) format("woff");
-  font-weight: 400;
-  font-style: italic
-}
-@font-face {
-  font-family: "Freight Text W01";
-  src: url(../webfonts/freigtexprobold-webfont.woff2) format("woff2"), url(../webfonts/freigtexprobold-webfont.woff) format("woff");
-  font-weight: 700;
-  font-style: normal
-}
-@font-face {
-  font-family: "Freight Text W01";
-  src: url(../webfonts/freigtexproboldit-webfont.woff2) format("woff2"), url(../webfonts/freigtexproboldit-webfont.woff) format("woff");
-  font-weight: 700;
-  font-style: italic
-}
-@font-face {
-  font-family: "Neue Haas Unica W01";
-  src: url(../webfonts/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2) format("woff2"), url(../webfonts/27645c8a-608b-4abf-a2f1-c4407b576723.woff) format("woff");
-  font-weight: 400;
-  font-style: normal
-}
-@font-face {
-  font-family: "Neue Haas Unica W01";
-  src: url(../webfonts/cc589c6c-1ce4-4279-8684-c378497d1c68.woff2) format("woff2"), url(../webfonts/8546c78d-5a38-4c7b-9371-5a70d803922a.woff) format("woff");
-  font-weight: 400;
-  font-style: italic
-}
-@font-face {
-  font-family: "Neue Haas Unica W01";
-  src: url(../webfonts/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2) format("woff2"), url(../webfonts/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff) format("woff");
-  font-weight: 700;
-  font-style: normal
-}
-@font-face {
-  font-family: "Neue Haas Unica W01";
-  src: url(../webfonts/dfa9d078-533c-44d9-9dd9-deaafbff5a96.woff2) format("woff2"), url(../webfonts/4142b00a-232a-49e8-803c-541f8b932fa1.woff) format("woff");
-  font-weight: 700;
-  font-style: italic
-}
-@font-face {
-  font-family: DovesType;
-  src: url(../webfonts/DovesType-Regular.woff2) format("woff2"), url(../webfonts/DovesType-Regular.woff) format("woff");
-  font-weight: 400;
-  font-style: normal
-}
-@font-face {
-  font-family: GillSansW04;
-  src: url(../webfonts/4bfd13a9-3195-4d8f-87a9-83a212d18b16.woff2) format("woff2"), url(../webfonts/63aa9f40-04be-453a-a672-aa8f9919115d.woff) format("woff")
-}
-@font-face {
-  font-family: GillSansW04;
-  src: url(../webfonts/688f1581-b411-41b9-ac0a-cf8f11f9f016.woff2) format("woff2"), url(../webfonts/ad4e4365-3d3d-427b-a9a9-94c3b9dfa074.woff) format("woff");
-  font-style: italic
-}
-@font-face {
-  font-family: "Helvetica LT W01";
-  src: url(../webfonts/89294146-207c-4803-91fe-338f0d0094bd.woff2) format("woff2"), url(../webfonts/57055fe4-c2d3-4287-bac2-eece43fdcbd3.woff) format("woff")
-}
-@font-face {
-  font-family: "Helvetica LT W01";
-  src: url(../webfonts/ac4134ce-b28e-4df9-b88c-a67db965774e.woff2) format("woff2"), url(../webfonts/6389110a-e983-4d95-8d1f-5a87de018aac.woff) format("woff");
-  font-style: italic
-}
+
 a, article, audio, big, blockquote, body, caption, center, code, div, em, form, h1, h2, h3, h4, h5, h6, header, html, i, img, object, output, p, s, section, small, span, strong, time, video {
   margin: 0;
   padding: 0;
@@ -180,7 +109,7 @@ body {
   padding-left: 32px;
   padding-right: 32px;
   position: relative;
-  z-index: 11
+ 
 }
 .content:after, .content:before {
   content: "";
@@ -842,8 +771,14 @@ body {
 }
 @media (max-width:1023px) {
   .badge-wrapper {
-    font-size: 12px
+    font-size: 12px;
+	width: 150px;
   }
+	
+	.content-article .badge-wrapper {
+  	top: 5px;
+ 	right: -60px;	
+	}
 }
 .content-article .badge-wrapper {
   top: 95px;
@@ -1174,7 +1109,8 @@ a.fancybox-next span {
     width: 150px
   }
   .badge-wrapper.with-hover {
-    display: relative
+    display: relative;
+		z-index: 700;
   }
   .fancybox-title {
     font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
