@@ -1109,7 +1109,7 @@ a.fancybox-next span {
     width: 150px
   }
   .badge-wrapper.with-hover {
-    display: relative;
+    display: none;
 		z-index: 700;
 	  right: -60px;
 	  top: 5px;
