@@ -1600,14 +1600,14 @@ footer ul
     margin-top: 70px;
     padding-bottom: 110px;
     clear: both;
-    color: #fff;
+    color: #000;
     text-align: center;
-    background: #000;
+    background: #fff;
 }
 
 .footer a
 {
-    color: #fff;
+    color: #000;
 }
 
 .footer-logo 
@@ -1669,18 +1669,7 @@ footer ul
     padding: 35px 0;
 }
 
-.our-position-holder:before
-{
-    content: "";
-    display: block;
-    height: 100%;
-    width: 2px;
-    background: #1a1a1a;
-    position: absolute;
-    left: 50%;
-    margin-left: -2px;
-    bottom: 0;
-}
+
 
 .our-position-holder:after 
 {

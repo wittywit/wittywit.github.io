@@ -1,4 +1,4 @@
-
+﻿
 a, article, audio, big, blockquote, body, caption, center, code, div, em, form, h1, h2, h3, h4, h5, h6, header, html, i, img, object, output, p, s, section, small, span, strong, time, video {
   margin: 0;
   padding: 0;
@@ -13,13 +13,7 @@ article, header, section {
 body {
   line-height: 1
 }
-blockquote {
-  quotes: none
-}
-blockquote:after, blockquote:before {
-  content: '';
-  content: none
-}
+
 #breakpoint-indicator {
   display: none
 }
@@ -42,10 +36,7 @@ body, html {
 img {
   display: block
 }
-a {
-  text-decoration: none;
-  color: inherit
-}
+
 strong {
   font-weight: 700
 }
@@ -162,13 +153,23 @@ body {
   position: absolute;
   text-align: center;
   top: 50%;
-  width: calc(100vw - 530px)
+  width: calc(100vw - 530px);
+
 }
 
 .article-topline ul#menu li {
   display:inline;
-	margin: 10px 0;
-	padding: 20px;
+	margin: 10px ;
+	padding: 20px ;
+}
+
+@media (max-width:1023px){
+	
+	.article-topline ul#menu li {
+  display:block;
+	margin: 10px ;
+	padding: 10px ;
+}
 }
 
 
@@ -1025,9 +1026,11 @@ a.fancybox-next span {
     -webkit-justify-content: center;
     justify-content: center
   }
-  .article-topline {
-    display: none
-  }
+  
+	
+.article-topline {
+    display: flex;
+  }	
   .content {
     padding-left: 16px;
     padding-right: 16px
@@ -1142,3 +1145,8 @@ a.fancybox-next span {
   display: inline-block;
   width: 2.5em
 }
+
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$###############################*/
+
