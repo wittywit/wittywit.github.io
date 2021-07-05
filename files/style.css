@@ -161,7 +161,7 @@ body a:hover
 {
     width: 20px;
     height: 21px;
-    top: 104px;
+    top: 25px;
     right: 0; 
     z-index: 1;
 }
@@ -1888,7 +1888,7 @@ li.social-footer a:first-child
 
     .toggle-holder
     {    
-        top: 71px;
+        top: 15px;
         right: 40px;
     }
 
