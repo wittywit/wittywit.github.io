@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="989" height="639" viewBox="0 0 989 639">
+  <g id="Group_204" data-name="Group 204" transform="translate(-18 -92)">
+    <path id="Path_82" data-name="Path 82" d="M2678.625-1209.953H2799.9l-5.713,368h-115.56" transform="translate(-2260 1501.453)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Group_143" data-name="Group 143" transform="translate(-24 30.923)">
+      <g id="Rectangle_257" data-name="Rectangle 257" transform="translate(42 61.077)" fill="#be0000" stroke="#b10202" stroke-width="1">
+        <rect width="148" height="37" rx="18.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="147" height="36" rx="18" fill="none"/>
+      </g>
+      <text id="Select_a_Finding_Rule" data-name="Select a 
+Finding Rule" transform="translate(116 78.077)" fill="#fff" font-size="11" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-21.07" y="0">Select A </tspan><tspan x="-30.299" y="13">Finding Rule</tspan></text>
+    </g>
+    <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(203 92)">
+      <g id="Rectangle_258" data-name="Rectangle 258" stroke="#707070" stroke-width="1">
+        <rect width="148" height="40" rx="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="147" height="39" rx="19.5" fill="none"/>
+      </g>
+      <text id="Select_a_Machine_Type" data-name="Select a 
+Machine Type" transform="translate(74 16)" fill="#fff" font-size="11" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-25.009" y="0">SELECT A </tspan><tspan x="-40.406" y="13">MACHINE TYPE</tspan></text>
+    </g>
+    <g id="Group_144" data-name="Group 144" transform="translate(0 117)">
+      <g id="Rectangle_259" data-name="Rectangle 259" transform="translate(277 150)" stroke="#707070" stroke-width="1">
+        <rect width="187" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="186" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Scoped_Finding_Rule_under_Machine_Type_Scope" data-name="Select a Scoped Finding Rule 
+under Machine Type Scope" transform="translate(373 172)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-77.82" y="0">Select a Scoped Finding Rule </tspan><tspan x="-71.754" y="15">under Machine Type Scope</tspan></text>
+    </g>
+    <g id="Group_146" data-name="Group 146" transform="translate(0 215)">
+      <g id="Rectangle_259-2" data-name="Rectangle 259" transform="translate(277 150)" stroke="#707070" stroke-width="1">
+        <rect width="187" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="186" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Scoped_Finding_Rule_under_Customer_Scope" data-name="Select a Scoped Finding Rule 
+under Customer Scope" transform="translate(373 172)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-77.82" y="0">Select a Scoped Finding Rule </tspan><tspan x="-60.528" y="15">under Customer Scope</tspan></text>
+    </g>
+    <g id="Group_147" data-name="Group 147" transform="translate(0 301)">
+      <g id="Rectangle_259-3" data-name="Rectangle 259" transform="translate(277 150)" stroke="#707070" stroke-width="1">
+        <rect width="187" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="186" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Scoped_Finding_Rule_under_Factory_Scope" data-name="Select a Scoped Finding Rule 
+under Factory Scope" transform="translate(373 172)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-77.82" y="0">Select a Scoped Finding Rule </tspan><tspan x="-54.42" y="15">under Factory Scope</tspan></text>
+    </g>
+    <g id="Group_148" data-name="Group 148" transform="translate(0 406)">
+      <g id="Rectangle_259-4" data-name="Rectangle 259" transform="translate(277 150)" stroke="#707070" stroke-width="1">
+        <rect width="187" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="186" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Scoped_Finding_Rule_under_Serial_Scope" data-name="Select a Scoped Finding Rule 
+under Serial Scope" transform="translate(373 172)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-77.82" y="0">Select a Scoped Finding Rule </tspan><tspan x="-49.368" y="15">under Serial Scope</tspan></text>
+    </g>
+    <g id="Group_149" data-name="Group 149" transform="translate(4 485)">
+      <g id="Rectangle_259-5" data-name="Rectangle 259" transform="translate(277 150)" stroke="#707070" stroke-width="1">
+        <rect width="187" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="186" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Scoped_Finding_Rule_under_Brand_Scope" data-name="Select a Scoped Finding Rule 
+under Brand Scope" transform="translate(373 172)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-77.82" y="0">Select a Scoped Finding Rule </tspan><tspan x="-50.511" y="15">under Brand Scope</tspan></text>
+    </g>
+    <g id="Group_145" data-name="Group 145" transform="translate(-20 30)">
+      <g id="Rectangle_260" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Customer" data-name="Select a Customer" transform="translate(132 266)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-48.336" y="0">Select a Customer</tspan></text>
+    </g>
+    <g id="Group_150" data-name="Group 150" transform="translate(-20 124)">
+      <g id="Rectangle_260-2" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Factory" data-name="Select a Factory" transform="translate(132 266)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-42.252" y="0">Select a Factory</tspan></text>
+    </g>
+    <g id="Group_151" data-name="Group 151" transform="translate(525 199)">
+      <g id="Rectangle_260-3" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Configure_Scoped_Finding" data-name="Configure Scoped 
+Finding" transform="translate(132 259)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-48.693" y="0">Configure Scoped </tspan><tspan x="-19.779" y="15">Finding</tspan></text>
+    </g>
+    <g id="Group_158" data-name="Group 158" transform="translate(654 36)">
+      <g id="Rectangle_260-4" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Configure_Anomaly" data-name="Configure Anomaly" transform="translate(132 266)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-51.168" y="0">Configure Anomaly</tspan></text>
+    </g>
+    <g id="Group_160" data-name="Group 160" transform="translate(799 -43)">
+      <g id="Rectangle_260-5" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_Anomaly_Rule" data-name="Select Anomaly Rule" transform="translate(132 266)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-54.405" y="0">Select Anomaly Rule</tspan></text>
+    </g>
+    <g id="Group_162" data-name="Group 162" transform="translate(807 278)">
+      <g id="Rectangle_260-6" data-name="Rectangle 260" transform="translate(42 237)" stroke="#707070" stroke-width="1">
+        <rect width="158" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="157" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_Recommendations_to_add_to_list" data-name="Select Recommendations 
+to add to list" transform="translate(121 259)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-68.742" y="0">Select Recommendations </tspan><tspan x="-33.423" y="15">to add to list</tspan></text>
+    </g>
+    <g id="Group_161" data-name="Group 161" transform="translate(799 124)">
+      <g id="Rectangle_260-7" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Configure_Boolean_operations" data-name="Configure Boolean
+ operations" transform="translate(132 259)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-49.578" y="0">Configure Boolean</tspan><tspan x="-30.048" y="15" xml:space="preserve"> operations</tspan></text>
+    </g>
+    <g id="Group_163" data-name="Group 163" transform="translate(802 445)">
+      <g id="Rectangle_260-8" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Rearrange_existing_Recommendations" data-name="Rearrange existing
+ Recommendations" transform="translate(132 259)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-49.413" y="0">Rearrange existing</tspan><tspan x="-50.979" y="15" xml:space="preserve"> Recommendations</tspan></text>
+    </g>
+    <g id="Group_159" data-name="Group 159" transform="translate(654 362)">
+      <g id="Rectangle_260-9" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Configure_Recommendations" data-name="Configure
+ Recommendations" transform="translate(132 259)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-26.193" y="0">Configure</tspan><tspan x="-50.979" y="15" xml:space="preserve"> Recommendations</tspan></text>
+    </g>
+    <g id="Group_152" data-name="Group 152" transform="translate(-20 316)">
+      <g id="Rectangle_260-10" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Brand" data-name="Select a Brand" transform="translate(132 266)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-38.193" y="0">Select a Brand</tspan></text>
+    </g>
+    <g id="Group_153" data-name="Group 153" transform="translate(-20 219)">
+      <g id="Rectangle_260-11" data-name="Rectangle 260" transform="translate(61 237)" stroke="#707070" stroke-width="1">
+        <rect width="138" height="49" rx="24.5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="137" height="48" rx="24" fill="none"/>
+      </g>
+      <text id="Select_a_Serial_Number" data-name="Select a Serial Number" transform="translate(132 266)" fill="#fff" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-60.33" y="0">Select a Serial Number</tspan></text>
+    </g>
+    <path id="Path_78" data-name="Path 78" d="M2428.365-1340.5h30.7" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="3"/>
+    <g id="Group_154" data-name="Group 154">
+      <path id="Path_79" data-name="Path 79" d="M2525.326-1299.5v30.792H2387.9v69.4" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_80" data-name="Path 80" d="M2525.326-1269.113h100.2v71.126" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g id="Group_155" data-name="Group 155" transform="translate(-151 161)">
+      <path id="Path_79-2" data-name="Path 79" d="M2525.326-1299.5v30.792h-19.139v9.217" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_80-2" data-name="Path 80" d="M2525.326-1269.113h271.562v9.784" transform="translate(-2260 1455.476)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g id="Group_156" data-name="Group 156" transform="translate(-151 256.262)">
+      <path id="Path_79-3" data-name="Path 79" d="M2525.326-1299.5v28.282h-19.139v8.466" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_80-3" data-name="Path 80" d="M2525.326-1269.113h271.562v9.091" transform="translate(-2260 1452.907)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g id="Group_157" data-name="Group 157" transform="translate(-149 350)">
+      <path id="Path_79-4" data-name="Path 79" d="M2525.326-1299.5v30.792h-19.139v9.217" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_80-4" data-name="Path 80" d="M2525.326-1269.113h271.562v10" transform="translate(-2260 1455.26)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <text id="OR" transform="translate(252 206)" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-8.706" y="0">OR</tspan></text>
+    <text id="OR-2" data-name="OR" transform="translate(252 341)" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-8.706" y="0">OR</tspan></text>
+    <text id="OR-3" data-name="OR" transform="translate(252 426)" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-8.706" y="0">OR</tspan></text>
+    <text id="OR-4" data-name="OR" transform="translate(252 530)" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-8.706" y="0">OR</tspan></text>
+    <text id="AND" transform="translate(250 653)" font-size="12" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-13.353" y="0">AND</tspan></text>
+    <path id="Path_81" data-name="Path 81" d="M2370-863v56.024h168.775" transform="translate(-2260 1465)" fill="none" stroke="#707070" stroke-width="1"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="4" cy="4" r="4" transform="translate(124 252)"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="4" cy="4" r="4" transform="translate(362 254)"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="4" cy="4" r="4" transform="translate(576 457)"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="4" cy="4" r="4" transform="translate(704 300)"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="4" cy="4" r="4" transform="translate(843 216)"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="4" cy="4" r="4" transform="translate(849 378)"/>
+    <circle id="Ellipse_18" data-name="Ellipse 18" cx="4" cy="4" r="4" transform="translate(836 537)"/>
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="4" cy="4" r="4" transform="translate(852 705)"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="4" cy="4" r="4" transform="translate(705 623)"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="4" cy="4" r="4" transform="translate(91 351)"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="4" cy="4" r="4" transform="translate(382 353)"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="4" cy="4" r="4" transform="translate(91 445)"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="4" cy="4" r="4" transform="translate(382 441)"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="4" cy="4" r="4" transform="translate(93 542)"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="4" cy="4" r="4" transform="translate(384 542)"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="4" cy="4" r="4" transform="translate(271 654)"/>
+    <path id="Path_83" data-name="Path 83" d="M2915-1024.546v-125.838h48.845" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_84" data-name="Path 84" d="M2915-955v126.83h49.557" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_85" data-name="Path 85" d="M2799.9-994.5h39.782" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_86" data-name="Path 86" d="M3044-1188v-46.554h62.792" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_87" data-name="Path 87" d="M3044-1126v53.3h68.876" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_88" data-name="Path 88" d="M3044-865.527v-48.332h52.241" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_89" data-name="Path 89" d="M3044-795.5v49.245h67.528" transform="translate(-2260 1455)" fill="none" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>
