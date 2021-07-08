@@ -207,6 +207,21 @@ a:focus {
 	font-style: italic;
 }
 
+
+
+@media screen and (max-width: 1023px){
+	
+	
+	.menu__item {
+	
+	padding: 3vw 3vw;
+	font-weight: 600;
+	line-height: 1.50;
+}
+}
+
+
+
 @keyframes marquee {
 	0% {
 		transform: translate3d(var(--move-initial), 0, 0);
