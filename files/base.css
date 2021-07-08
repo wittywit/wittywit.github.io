@@ -356,9 +356,9 @@ a:focus {
 	.content{
 		
 		 position: fixed;
-    top: 20vw;
+    bottom: 20vw;
     width: 100%;
-		right:-13vw;
+		left:-13vw;
 	}
 }
 
