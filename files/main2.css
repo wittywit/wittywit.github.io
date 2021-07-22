@@ -1,0 +1,1099 @@
+﻿
+a, body, div, em, h1, h2, h3, h4, h5, h6, html, i, img, label, p, s, summary, time, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+body {
+  line-height: 1
+}
+body, html {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #232323
+}
+img {
+  display: block
+}
+a {
+  text-decoration: none;
+  color: inherit
+}
+em, i {
+  font-style: italic
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%
+}
+html.page-with-columns {
+  height: 100%
+}
+*, :after, :before {
+  box-sizing: inherit
+}
+body {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+  position: relative;
+  -webkit-font-smoothing: antialiased
+}
+html.page-with-columns body {
+  height: 100%
+}
+.clickable-block, .js-link {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none
+}
+.content {
+  zoom: 1;
+  padding-left: 32px;
+  padding-right: 32px;
+  position: relative;
+  z-index: 11
+}
+.content:after, .content:before {
+  content: "";
+  display: table
+}
+.content:after {
+  clear: both
+}
+.content-columns, .content-home {
+  height: 100%
+}
+.content-columns {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: absolute;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  z-index: 1
+}
+.content-columns::-webkit-scrollbar {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  height: 8px
+}
+.content-columns::-webkit-scrollbar-button {
+  display: block;
+  width: 0;
+  height: 0
+}
+.content-columns::-webkit-scrollbar-track-piece {
+  background: rgba(211, 211, 211, .8)
+}
+.content-columns::-webkit-scrollbar-thumb {
+  display: block;
+  background: #000
+}
+@media (min-height:1024px) {
+  .content-columns::-webkit-scrollbar {
+    height: 16px
+  }
+}
+.panels {
+  zoom: 1;
+  height: 100%;
+  width: 10000px
+}
+.panels:after, .panels:before {
+  content: "";
+  display: table
+}
+.panels:after {
+  clear: both
+}
+.panel-container {
+  zoom: 1;
+  float: left;
+  height: 100%
+}
+.panel-container:after, .panel-container:before {
+  content: "";
+  display: table
+}
+.panel-container:after {
+  clear: both
+}
+.panel-container + .panel-container {
+  margin-left: 64px
+}
+.panel-container-last {
+  margin-right: 6em
+}
+.panel-label {
+  float: left;
+  height: 200px;
+  margin-top: 180px;
+  position: relative;
+  width: 32px
+}
+.panel-label-text {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: .03em;
+  -moz-transform: rotate(-90deg) translateX(-100%);
+  -ms-transform: rotate(-90deg) translateX(-100%);
+  -webkit-transform: rotate(-90deg) translateX(-100%);
+  transform: rotate(-90deg) translateX(-100%);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  border-right: 8px solid #232323;
+  height: 32px;
+  left: 0;
+  padding: 6px 17px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap
+}
+.panel-scrolling-container {
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: relative
+}
+.panel-label + .panel-scrolling-container {
+  padding-left: 32px
+}
+.panel-scrolling-area {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: calc(100% + 60px);
+  -webkit-overflow-scrolling: touch;
+  position: relative
+}
+.panel-items {
+  float: left;
+  margin-top: 180px;
+  width: calc(100% - 60px)
+}
+.panel-scrolling-container:not(.panel-height-full) .panel-items {
+  margin-bottom: 100px
+}
+.panel-width-medium {
+  width: 400px
+}
+.panel-width-auto {
+  width: auto
+}
+.panel-items .preview-item {
+  width: 100%
+}
+.panel-items .preview-item-editorial + .preview-item-editorial {
+  margin-top: 4em
+}
+.panel-items .preview-item-journal + .preview-item-journal {
+  margin-top: 117px
+}
+.panel-items .preview-item-conversation + .preview-item-conversation {
+  margin-top: 48px
+}
+.wrap-preview-item-image {
+  -moz-transition: opacity 250ms ease-in-out;
+  -o-transition: opacity 250ms ease-in-out;
+  -webkit-transition: opacity 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out;
+  opacity: 0;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto
+}
+.panel-item-journalarticle .wrap-preview-item-image, .related-item .wrap-preview-item-image {
+  margin-left: 0
+}
+.wrap-preview-item-image .lazy {
+  position: absolute !important;
+  top: 0;
+  left: 0
+}
+.preview-item-image.lazy-loaded .wrap-preview-item-image {
+  opacity: 1
+}
+.preview-item-image img {
+  margin: 0 auto
+}
+.panel-item-journalarticle .preview-item-image img, .related-item .preview-item-image img {
+  margin-left: 0
+}
+.preview-item-book .preview-item-image img {
+  float: left;
+  height: 100%;
+  width: auto
+}
+.preview-item-book .preview-item-image img + img {
+  margin-left: 10px
+}
+.preview-item-book .preview-item-image {
+  float: left
+}
+.preview-item-book .preview-item-image + .preview-item-image {
+  margin-left: 16px
+}
+.preview-item-image .lazy {
+  position: relative;
+  left: 0;
+  z-index: 1
+}
+.preview-item {
+  position: relative
+}
+.preview-item .lazy-placeholder {
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -moz-transition: opacity 250ms ease-in-out;
+  -o-transition: opacity 250ms ease-in-out;
+  -webkit-transition: opacity 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  opacity: 1
+}
+.js-open-journal {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none
+}
+.preview-item-title {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: center
+}
+@media (max-width:1023px) {
+  .preview-item-title {
+    font-size: 18px;
+    line-height: 1.2
+  }
+}
+.preview-item-journal .preview-item-title {
+  text-decoration: underline
+}
+.preview-item-image + .preview-item-title {
+  margin-top: 30px
+}
+.preview-item-book .preview-item-title {
+  text-align: left
+}
+.preview-item-book-author + .preview-item-title {
+  margin-top: 4px
+}
+.preview-item-editorial .preview-item-title {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 44px;
+  line-height: 1.1;
+  max-width: 75%;
+  text-align: left
+}
+.preview-item-text {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  clear: left
+}
+.preview-item-text p + h2, .preview-item-text p + h3, .preview-item-text p + p {
+  margin-top: 1.2em
+}
+.preview-item-text a {
+  text-decoration: underline
+}
+.preview-item-text h2, .preview-item-text h3 {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2
+}
+.preview-item-book .preview-item-text, .preview-item-editorial .preview-item-text {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 15px;
+  line-height: 1.5
+}
+.preview-item-book .preview-item-text p + p, .preview-item-editorial .preview-item-text p + p {
+  margin-top: 1.5em
+}
+.preview-item-editorial .preview-item-title + .preview-item-text {
+  margin-top: 50px
+}
+.preview-item-title + .preview-item-text {
+  margin-top: 22px
+}
+.preview-item-image + .preview-item-text {
+  margin-top: 30px
+}
+.preview-item-book {
+  zoom: 1
+}
+.preview-item-book:after, .preview-item-book:before {
+  content: "";
+  display: table
+}
+.preview-item-book:after {
+  clear: both
+}
+.preview-item-book + .preview-item-book {
+  margin-top: 82px
+}
+.preview-item-book:last-child {
+  margin-bottom: 30px
+}
+.preview-item-book-author {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.1
+}
+@media (max-width:1023px) {
+  .preview-item-book-author {
+    font-size: 12px
+  }
+}
+.preview-item-video .preview-item-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%
+}
+.preview-item-video .preview-item-image video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+.preview-item-editorial {
+  border: 1px solid #2a2a2a;
+  padding: 32px
+}
+.panel-items-title {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-decoration: underline
+}
+@media (max-width:1023px) {
+  .panel-items-title {
+    font-size: 18px;
+    line-height: 1.2
+  }
+}
+.block-title {
+  margin-left: 160px;
+  margin-right: 58px;
+  position: relative
+}
+.block-title em, .block-title i {
+  font-style: italic
+}
+.block-text {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  float: left;
+  margin-bottom: 220px;
+  margin-left: 160px;
+  max-width: 900px;
+  width: calc(100% - 592px)
+}
+.block-text h2 + p, .block-text h3 + p, .block-text p + h2, .block-text p + p {
+  margin-top: 27px
+}
+.block-text p + h3 {
+  margin-top: 50px
+}
+.block-text em, .block-text i {
+  font-style: italic
+}
+.block-text a {
+  text-decoration: underline
+}
+.block-text h2 {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 42px;
+  line-height: 1.1;
+  font-weight: 700;
+  clear: left
+}
+@media (max-width:1023px) {
+  .block-text h2 {
+    font-size: 23px;
+    line-height: 1.2
+  }
+}
+.block-text h3 {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 1.1;
+  font-weight: 700
+}
+.block-text[lang=zh] p {
+  text-align: justify
+}
+.block-text-copy {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 14px;
+  line-height: 1.25;
+  margin-top: 29px
+}
+.share-options + .share-options {
+  margin-top: 52px
+}
+.wrap-related-items {
+  margin-top: 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  height: calc(100% - 78px);
+  -webkit-overflow-scrolling: touch
+}
+@media (min-width:1024px) {
+  .wrap-related-items::-webkit-scrollbar {
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    height: 8px
+  }
+  .wrap-related-items::-webkit-scrollbar-button {
+    display: block;
+    width: 0;
+    height: 0
+  }
+  .wrap-related-items::-webkit-scrollbar-track-piece {
+    background: rgba(211, 211, 211, .8)
+  }
+  .wrap-related-items::-webkit-scrollbar-thumb {
+    display: block;
+    background: #000
+  }
+}
+@media (min-width:1024px) and (min-height:1024px) {
+  .wrap-related-items::-webkit-scrollbar {
+    height: 16px
+  }
+}
+.related-items {
+  zoom: 1;
+  margin-left: 48px;
+  margin-right: 48px;
+  max-height: calc(100vh - 48px - 70px - 48px - 30px);
+  overflow: hidden
+}
+.related-items:after, .related-items:before {
+  content: "";
+  display: table
+}
+.related-items:after {
+  clear: both
+}
+.related-item-scrolling-container {
+  height: 100%;
+  overflow-y: auto;
+  width: calc(100% + 60px)
+}
+.related-item-scrolling-area {
+  width: calc(100% - 60px);
+  padding-bottom: 50px
+}
+.related-item {
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  width: 400px
+}
+.related-item + .related-item {
+  margin-left: 32px
+}
+.related-item-image {
+  height: 272px
+}
+.related-item-image img {
+  height: 100%;
+  width: auto
+}
+.related-item-title {
+  display: inline-block;
+  max-width: 400px;
+  height: 81px;
+  font-weight: 600;
+  font-size: 22px
+}
+.related-item-journalarticle {
+  min-width: 400px
+}
+.related-item-journalarticle .related-item-text {
+  max-width: 400px
+}
+.related-item-journalarticle .related-item-title {
+  max-width: 500px
+}
+.related-item-authors {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.1;
+  margin-bottom: .5em
+}
+.related-item-text {
+  font-family: "Freight Text W01", Georgia, serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 22px
+}
+.related-item-title + .related-item-text {
+  margin-top: 38px
+}
+.preview-item-image + .related-item-text {
+  margin-top: 40px
+}
+.notes-number {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-transition: color .1s ease-in-out;
+  -o-transition: color .1s ease-in-out;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+  float: left;
+  color: #b8b8b8;
+  margin-right: 6px
+}
+.no-touch .notes-number:hover {
+  color: #2a2a2a
+}
+.show-all-notes:before {
+  content: "";
+  background: -webkit-linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, #fff 0, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  width: 100%;
+  height: 33px;
+  top: 27px;
+  z-index: 1
+}
+.show-all-notes:after {
+  content: "";
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 0, #fff 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  position: absolute;
+  width: 100%;
+  height: 33px;
+  bottom: 33px;
+  z-index: 1
+}
+.wrap-conversation-items {
+  position: relative
+}
+.wrap-conversation-items:before {
+  content: "";
+  background-image: url(../elements/header-bg.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 0
+}
+.wrap-conversation-items:after {
+  content: "";
+  background-image: url(../elements/bottom-bg.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: -20px
+}
+.conversation-items {
+  padding-top: 29px;
+  margin-bottom: 20px;
+  height: 50vh;
+  overflow: scroll
+}
+.conversation-item {
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 24px
+}
+.conversation-item + .conversation-item {
+  border-top: 1px dashed #2a2a2a;
+  padding-top: 24px
+}
+.item-conversation-text {
+  margin-top: 14px
+}
+.item-conversation-text p + p {
+  margin-top: 8px
+}
+#wrapper {
+  display: none;
+  margin-top: 300px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative
+}
+.scrolling-container {
+  position: relative;
+  height: 400px;
+  margin-top: 300px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 800px
+}
+.scrolling-columns {
+  zoom: 1;
+  height: 400px;
+  width: 1580px
+}
+.scrolling-columns:after, .scrolling-columns:before {
+  content: "";
+  display: table
+}
+.scrolling-columns:after {
+  clear: both
+}
+.scrolling-area {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: calc(100% + 60px)
+}
+.wrap-block-text {
+  zoom: 1
+}
+.wrap-block-text:after, .wrap-block-text:before {
+  content: "";
+  display: table
+}
+.wrap-block-text:after {
+  clear: both
+}
+.preview-item-image {
+  position: relative
+}
+.lazy {
+  top: 0;
+  left: 50%
+}
+.lazy + .lazy-placeholder {
+  margin-left: 0 !important
+}
+.item-image-wrapper {
+  background-repeat: repeat;
+  background-size: 85px
+}
+.lazy-loaded .item-image-wrapper {
+  background: #fff !important
+}
+.item-image-wrapper-bg1 {
+  background-image: url(../elements/bg-1.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg2 {
+  background-image: url(../elements/bg-2.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg3 {
+  background-image: url(../elements/bg-3.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg4 {
+  background-image: url(../elements/bg-4.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg5 {
+  background-image: url(../elements/bg-5.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper-bg6 {
+  background-image: url(../elements/bg-6.gif?2);
+  background-size: 85px
+}
+.item-image-wrapper {
+  position: relative
+}
+.item-image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.no-design-content {
+  margin-top: 180px
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -moz-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -o-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+.overlay-item {
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 718px;
+  max-width: 90%
+}
+.block-overlay {
+  -moz-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out, margin-top 275ms ease-in-out;
+  -o-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out, margin-top 275ms ease-in-out;
+  -webkit-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out, margin-top 275ms ease-in-out;
+  transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out, margin-top 275ms ease-in-out;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 0;
+  min-height: 100vh;
+  z-index: 400
+}
+.block-overlay .content {
+  -moz-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out;
+  -o-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out;
+  -webkit-transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out;
+  transition: opacity 275ms ease-in-out, visibility 275ms ease-in-out;
+  visibility: hidden;
+  opacity: 0
+}
+.overlay-content-loaded .block-overlay {
+  opacity: 1;
+  visibility: visible
+}
+.overlay-content-loaded .content-home {
+  position: fixed;
+  top: 0
+}
+.clickable {
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -moz-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0);
+    transform: rotate(0)
+  }
+  to {
+    -o-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+.overlay-journal-image {
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%
+}
+.panel-show-more {
+  font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 72px;
+  text-align: center
+}
+.panel-show-more a {
+  text-decoration: underline
+}
+.panel-items {
+  position: relative
+}
+.content-video {
+  background-color: #232323;
+  color: #b4b4b4
+}
+.content-video-live {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh
+}
+@media (max-width:1023px) {
+  .on-desktop {
+    display: none !important
+  }
+  html.is-touch .block-overlay {
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch
+  }
+  body {
+    -webkit-text-size-adjust: none
+  }
+  .content {
+    padding-left: 16px;
+    padding-right: 16px
+  }
+  .block-title {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px
+  }
+  .block-text {
+    height: auto !important;
+    margin-bottom: 50px;
+    margin-left: 0;
+    width: 100%
+  }
+  .block-text > div img {
+    width: 100%;
+    height: auto
+  }
+  .panel-container + .panel-container {
+    margin-left: 32px
+  }
+  .panel-container-last {
+    margin-right: 0
+  }
+  .panel-label {
+    display: none
+  }
+  .panel-items-title {
+    text-decoration: none
+  }
+  .panel-items {
+    margin-top: 66px
+  }
+  .panel-scrolling-container {
+    max-width: calc(100vw - 2 * 16px)
+  }
+  .panel-label + .panel-scrolling-container {
+    padding-left: 0
+  }
+  .preview-item-image.landscape .wrap-preview-item-image {
+    width: 100% !important
+  }
+  .preview-item-image.landscape img {
+    width: 100%;
+    height: auto
+  }
+  .preview-item-editorial {
+    padding-left: 16px;
+    padding-right: 16px
+  }
+  .preview-item-book {
+    display: flex;
+    flex-direction: column
+  }
+  .preview-item-book .preview-item-image {
+    order: 1;
+    width: 100% !important
+  }
+  .preview-item-book .preview-item-image img {
+    height: auto;
+    width: 100% !important
+  }
+  .preview-item-book .preview-item-image + .preview-item-image {
+    margin-left: 0;
+    margin-top: 20px
+  }
+  .related-item-journalarticle {
+    min-width: inherit
+  }
+  .related-item-journalarticle .wrap-preview-item-image img {
+    width: 100%;
+    height: aiuto
+  }
+  .related-item {
+    width: calc(100vw - 32px);
+    height: auto;
+    overflow: visible;
+    clear: left
+  }
+  .related-item + .related-item {
+    margin-left: 0
+  }
+  .share-options {
+    font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.1;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    position: absolute
+  }
+  .share-options a {
+    font-family: "Neue Haas Unica W01", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.1
+  }
+  .conversation-item {
+    padding-left: 16px;
+    padding-right: 16px
+  }
+  .show-all-notes {
+    padding-bottom: 16px;
+    padding-top: 16px
+  }
+  .show-all-notes:after, .show-all-notes:before {
+    content: none
+  }
+  .wrap-related-items {
+    overflow-x: hidden;
+    overflow-y: auto
+  }
+}
+@media (max-width:1023px) {
+  .preview-item-a3image .preview-item-image img {
+    width: 100%;
+    height: auto
+  }
+}
+@media (max-width:767px) {
+  .overlay-item--first, .overlay-item--second {
+    position: relative;
+    top: 0;
+    transform: none;
+    left: 0;
+    width: 100%;
+    max-width: inherit
+  }
+}
+.text-through {
+  text-decoration: line-through
+}
