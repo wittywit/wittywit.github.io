@@ -61,7 +61,7 @@ a {
 a:hover,
 a:focus {
 	color: var(--color-link-hover);
-	outline: inset;
+	outline: none;
 }
 
 .frame {
@@ -76,6 +76,22 @@ a:focus {
 	font-size: 1rem;
 	margin: 0 0 1rem;
 	font-weight: 700;
+}
+
+.frame__absurdity-link {
+	font-size: 0.75rem;
+	font-weight: 400;
+	letter-spacing: 0.08em;
+	color: var(--color-text);
+	white-space: nowrap;
+	margin-left: 1.5rem;
+	opacity: 0.5;
+	transition: opacity 0.2s;
+}
+
+.frame__absurdity-link:hover {
+	opacity: 1;
+	color: var(--color-text);
 }
 
 .frame__links {
@@ -139,10 +155,6 @@ a:focus {
 	pointer-events: none;
 }
 
-.menu__item-link:hover {
-	transition-duration: 0.1s;
-	opacity: 0;
-}
 
 .menu__item-img {
 	pointer-events: none;
@@ -155,7 +167,7 @@ a:focus {
 	transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,20px,0);
 }
 
-.menu__item-link:hover + .menu__item-img {
+.menu__item:hover .menu__item-img {
 	opacity: 1;
 	transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,4deg);
 	transition: all 0.4s;
@@ -184,7 +196,7 @@ a:focus {
 	transition: opacity 0.1s;
 }
 
-.menu__item-link:hover ~ .marquee .marquee__inner {
+.menu__item:hover .marquee .marquee__inner {
 	animation-play-state: running;
 	opacity: 1;
 	transition-duration: 0.4s;
